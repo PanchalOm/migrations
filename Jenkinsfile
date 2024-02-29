@@ -86,17 +86,17 @@ pipeline{
           success{
             
              emailext attachLog: true, body: '''Your pipeline is successfully completed.<br>
-For check pipeline result is click the blog.
+For check pipeline result is click the blog.<br><br>
 
-Thanks.
+Thanks.<br>
 -DevOps Team Ximple Solutions''', subject: 'Migration pipeline result', to: 'ompanchalait@gmail.com'
            
             }
         failure{
-            emailext attachLog: true, body: '''Your pipeline is unfortunately failed.
+            emailext attachLog: true, body: '''Your pipeline is unfortunately failed.<br>
+For check pipeline result is click the blog.<br><br>
 
-For check pipeline result is click the blog.
-Thanks.
+Thanks.<br>
 -DevOps Team Ximple Solutions''', subject: 'Migration pipeline result', to: 'ompanchalait@gmail.com'
            
         }
