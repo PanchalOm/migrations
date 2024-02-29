@@ -85,7 +85,7 @@ pipeline{
         
           success{
             
-             emailext attachLog: true, body: '''Your pipeline is successfully completed.
+             emailext attachLog: true, body: '''Your pipeline is successfully completed.<br>
 For check pipeline result is click the blog.
 
 Thanks.
