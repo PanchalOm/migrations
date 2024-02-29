@@ -80,7 +80,7 @@ pipeline{
                 
 //             }
 //          }
-        
+    }
     post{
         
           success{
@@ -98,7 +98,8 @@ Thanks.
 For check pipeline result is click the blog.
 Thanks.
 -DevOps Team Ximple Solutions''', subject: 'Migration pipeline result', to: 'ompanchalait@gmail.com'
-           }
+           
         }
     }
 }
+
